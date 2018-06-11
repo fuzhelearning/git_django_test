@@ -1,0 +1,4 @@
+{
+  "tests.py::HomePageTest::test_home_page_returns_correct_html": true, 
+  "tests.py::HomePageTest::test_uses_home_template": true
+}
