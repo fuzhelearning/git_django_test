@@ -2,6 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
 import time
+
+
 class NewVistorTest(unittest.TestCase):
     def setUp(self):
         self.browser=webdriver.Chrome()
@@ -33,3 +35,5 @@ class NewVistorTest(unittest.TestCase):
         inputbox.send_keys(Keys.ENTER)
         self.check_for_row_in_list_table('2:Use peacock feathers to make a fly')
 
+if __name__=='__main__':
+    unittest.main()
